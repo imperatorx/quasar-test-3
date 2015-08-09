@@ -6,7 +6,6 @@
 package foo.quasar.test;
 
 import co.paralleluniverse.fibers.SuspendExecution;
-import co.paralleluniverse.fibers.Suspendable;
 
 /**
  *
