@@ -1,0 +1,7 @@
+org.springframework.aop.framework.JdkDynamicAopProxy.invoke
+org.springframework.security.access.intercept.AbstractSecurityInterceptor.credentialsNotFound
+org.springframework.security.access.intercept.AbstractSecurityInterceptor.beforeInvocation
+org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor.invoke
+org.springframework.aop.framework.ReflectiveMethodInvocation.proceed
+org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection
+org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint 
