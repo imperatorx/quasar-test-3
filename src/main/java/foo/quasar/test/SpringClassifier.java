@@ -12,10 +12,8 @@ public class SpringClassifier implements SuspendableClassifier {
 
     private final Logger log = LoggerFactory.getLogger(this.getClass());
 
-    Pattern cglibMethodPattern = Pattern.compile("CGLIB\\$([^\\$]+)\\$.*");
-
-    Pattern methodProviderProxyPattern =        Pattern.compile("^[/a-zA-Z0-9]+\\$\\$EnhancerBySpringCGLIB\\$\\$[a-z0-9]+$");
-    Pattern invokationProviderProxyPattern =    Pattern.compile("^[/a-zA-Z0-9]+\\$\\$FastClassBySpringCGLIB\\$\\$[a-z0-9]+$");
+   Pattern methodProviderProxyPattern =        Pattern.compile("^[/a-zA-Z0-9]+\\$\\$EnhancerBySpringCGLIB\\$\\$[a-z0-9]+$");
+        Pattern invokationProviderProxyPattern =    Pattern.compile("^[/a-zA-Z0-9]+\\$\\$FastClassBySpringCGLIB\\$\\$[a-z0-9]+$");
 
     String[][] suspendableSupers = {
         {"org/aopalliance/intercept/Joinpoint", "proceed"},
