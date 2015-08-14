@@ -72,7 +72,7 @@
                         <argument>-Dco.paralleluniverse.fibers.verifyInstrumentation=true</argument>
 
                         <!-- Quasar Agent for JDK 8 -->
-                        <argument>-javaagent:${co.paralleluniverse:quasar-core:jar:jdk8}</argument> <!-- =vdc -->
+                        <argument>-javaagent:${co.paralleluniverse:quasar-core:jar:jdk8}=vdc</argument> <!-- =vdc -->
 
                         <!-- Classpath -->
                         <argument>-classpath</argument> <classpath/>

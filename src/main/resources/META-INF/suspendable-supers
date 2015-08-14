@@ -1,2 +1,0 @@
-org.aopalliance.intercept.Joinpoint.proceed
-org.aopalliance.intercept.MethodInterceptor.invoke
